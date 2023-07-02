@@ -1,7 +1,7 @@
 pragma solidity ^0.8.9;
 // SPDX-License-Identifier: MIT
 
-import { IERC20Upgradeable } from "@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol";
+import { IERC20Upgradeable } from "openzeppelin-contracts-upgradeable/contracts/token/ERC20/utils/SafeERC20Upgradeable.sol";
 
 contract VariableDataV1 {
     // struct details for staking

@@ -2,7 +2,7 @@
 pragma solidity ^0.8.9;
 
 import "./ERC20Upgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
+import "openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol";
 
 contract FanTokenVariableV1 is ERC20Upgradeable, OwnableUpgradeable {
     // lock counter for creating lock id

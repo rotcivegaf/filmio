@@ -2,7 +2,7 @@
 pragma solidity ^0.8.9;
 
 import "./FanTokenVariableV1.sol";
-import "@opengsn/contracts/src/ERC2771Recipient.sol";
+import "gsn/packages/contracts/src/ERC2771Recipient.sol";
 
 contract FanTokenV1 is FanTokenVariableV1, ERC2771Recipient {
     // lock the implementation contract

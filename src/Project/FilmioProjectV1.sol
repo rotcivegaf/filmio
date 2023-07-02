@@ -1,8 +1,8 @@
 pragma solidity ^0.8.9;
 
-import { Strings } from "@openzeppelin/contracts/utils/Strings.sol";
-import { ERC2771Recipient } from "@opengsn/contracts/src/ERC2771Recipient.sol";
-import { OwnableUpgradeable, ContextUpgradeable } from "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
+import { Strings } from "openzeppelin-contracts/contracts/utils/Strings.sol";
+import { ERC2771Recipient } from "gsn/packages/contracts/src/ERC2771Recipient.sol";
+import { OwnableUpgradeable, ContextUpgradeable } from "openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol";
 import { IFilmioProjectV1 } from "./IFilmioProjectV1.sol";
 import { VariableDataV1 } from "./VariableDataV1.sol";
 

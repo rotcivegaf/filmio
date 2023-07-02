@@ -2,9 +2,9 @@
 
 pragma solidity ^0.8.9;
 
-import { ReentrancyGuardUpgradeable } from "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol";
-import { SafeERC20Upgradeable, IERC20Upgradeable } from "@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol";
-import { ERC2771Recipient } from "@opengsn/contracts/src/ERC2771Recipient.sol";
+import { ReentrancyGuardUpgradeable } from "openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol";
+import { SafeERC20Upgradeable, IERC20Upgradeable } from "openzeppelin-contracts-upgradeable/contracts/token/ERC20/utils/SafeERC20Upgradeable.sol";
+import { ERC2771Recipient } from "gsn/packages/contracts/src/ERC2771Recipient.sol";
 import { IFilmioProjectV1 } from "../Project/IFilmioProjectV1.sol";
 import { VariableDataV1 } from "./VariableDataV1.sol";
 
