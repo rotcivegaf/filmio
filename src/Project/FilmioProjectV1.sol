@@ -11,7 +11,7 @@ contract FilmioProjectV1 is ERC2771Recipient, OwnableUpgradeable, IFilmioProject
     // lock the implementation contract
     /// @custom:oz-upgrades-unsafe-allow constructor
     constructor() {
-        _disableInitializers();
+        //_disableInitializers(); // @audit: to facilitate the PoC I comment this line
     }
 
     // Initialisation section
